@@ -197,46 +197,107 @@
         <!-- client section -->
         <section class="px-4 lg:px-28 ">
           <div class="pt-28">
-            <h2 class="evergreen text-center font-extrabold text-3xl">What Our Client Says</h2>
+            <h2 class="evergreen text-center font-extrabold text-4xl">What Our Client Says</h2>
             <p class="poppins text-center pt-6 pb-16">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Accusantium dignissimos doloribus, soluta impedit voluptatum repudiandae.</p>
           </div>
 
           <!-- client carousel -->
           <div class="carousel w-auto rounded-xl">
-            <div id="slide1" class="carousel-item relative w-full">
-              <img src="/images/slider-1.jpg" class="w-full bg-opacity-20" />
+            <div id="slide1" class="carousel-item relative max-w-full max-h-500 opacity-90">
+              <img src="/images/slider-1.jpg" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a> 
+                <a href="#slide4" class=" text-white  hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a> 
                 <p class="text-center px-6 text-white poppins text-xl ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-                <a href="#slide2" class="btn btn-circle  hover:text-cyan-900"><i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#slide2" class="text-white  hover:text-cyan-900"><i class="fa-solid fa-chevron-right"></i></a>
               </div>
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
               <img src="/images/slider-2.jpg" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a>
+                <a href="#slide1" class="text-white hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a>
                 <p class="text-center px-6 text-white poppins text-xl ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p> 
-                <a href="#slide3" class="btn btn-circle hover:text-cyan-800"><i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#slide3" class="text-white hover:text-cyan-800"><i class="fa-solid fa-chevron-right"></i></a>
               </div>
             </div> 
             <div id="slide3" class="carousel-item relative w-full">
               <img src="/images/slider-3.jpg" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a> 
+                <a href="#slide2" class="text-white hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a> 
                 <p class="text-center px-6 text-white poppins text-xl ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-                <a href="#slide4" class="btn btn-circle  hover:text-cyan-800"><i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#slide4" class="text-white  hover:text-cyan-800"><i class="fa-solid fa-chevron-right"></i></a>
               </div>
             </div> 
             <div id="slide4" class="carousel-item relative w-full">
               <img src="/images/slider-4.jpg" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a> 
+                <a href="#slide3" class="text-white hover:text-cyan-800"><i class="fa-solid fa-chevron-left"></i></a> 
                 <p class="text-center px-6 text-white poppins text-xl ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-                <a href="#slide1" class="btn btn-circle hover:text-cyan-800"><i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#slide1" class="text-white hover:text-cyan-800"><i class="fa-solid fa-chevron-right"></i></a>
               </div>
             </div>
           </div>
         </section>
+
+        <!-- FAQ section -->
+        <div class="text-center pt-28">
+          <div>
+            <h2 class="text-4xl evergreen font-extrabold">Frequently Asked Questions</h2>
+          <p class="poppins pt-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quae animi nulla a similique nobis.</p>
+          </div>
+
+          <!-- accordian -->
+          <div class="px-4 lg:px-28 pt-16 flex">
+
+            <div>
+            
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                <div class="collapse-title text-2xl font-extrabold evergreen ">
+                  1. What's the weather in Chicago?
+                </div>
+                <div class="collapse-content poppins"> 
+                  <p>Right now it's 0 with mostly sunny. Due to current wind condition, it's feels like it's -4.</p>
+                </div>
+              </div>
+  
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-2xl font-extrabold evergreen">
+                  2. Which is your favorite color?
+                </div>
+                <div class="collapse-content poppins"> 
+                  <p>Midnight Purple</p>
+                </div>
+              </div>
+  
+              <div class="collapse collapse-plus bg-base-200 ">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-2xl font-extrabold evergreen">
+                  3. Where is your next vacation destination?
+                </div>
+                <div class="collapse-content poppins"> 
+                  <p>Oslo, Norway</p>
+                </div>
+              </div>
+  
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-2xl font-extrabold evergreen">
+                  4. Which is your favorite italian dish?
+                </div>
+                <div class="collapse-content poppins"> 
+                  <p>Chicken Cheese Pizza</p>
+                </div>
+              </div>
+  
+            </div>
+  
+            <div>
+              <img src="/images/faq.png" alt="">
+            </div>
+
+          </div>
+        </div>
     </main>
     <footer>
 
